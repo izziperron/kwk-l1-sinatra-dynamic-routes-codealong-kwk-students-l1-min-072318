@@ -18,4 +18,6 @@ get '/goodbye/:name' do
 @user_name = params[:name]
 return "Goodbye, #{@user_name}."
 end
+
+get '/multiply'
 end
