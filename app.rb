@@ -19,5 +19,5 @@ get '/goodbye/:name' do
 return "Goodbye, #{@user_name}."
 end
 
-get '/multiply(num1, num2)'
+get '/multiply/:num1/:num2'
 end
